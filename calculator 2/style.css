@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+
+.parent{
+	background:tomato;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+
+
+}
+
+.cal{
+	border:1px solid white;
+	padding:40px;
+	border-radius:20px;
+	background:black;
+}
+
+.cal input{
+	margin:5px 0;
+	padding:5px;
+	width:100%;
+	color:white;
+
+}
+
+
+.cal button{
+	border:none;
+	margin:10px 5px;
+	padding:5px 10px;
+	background:lightyellow;
+}

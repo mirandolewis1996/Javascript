@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+
+<div class="parent">
+
+	<h1>Calculator</h1>
+
+	<div class="child1">
+
+		<div class="cal">
+
+			<input type="text" name="values" id="disvalue" disabled>
+
+			<div>
+				<button onclick="addvalue('1')">1</button>
+				<button onclick="addvalue('2')">2</button>
+				<button onclick="addvalue('3')">3</button>
+				<button onclick="addvalue('+')">+</button>
+			</div>
+			<div>
+				<button  onclick="addvalue('4')">4</button>
+				<button  onclick="addvalue('5')">5</button>
+				<button  onclick="addvalue('6')">6</button>
+				<button  onclick="addvalue('-')">-</button>
+			</div>
+			<div>
+				<button  onclick="addvalue('7')">7</button>
+				<button onclick="addvalue('8')">8</button>
+				<button  onclick="addvalue('9')">9</button>
+				<button  onclick="addvalue('*')">x</button>
+				<button  onclick="addvalue('/')">/</button>
+			</div>
+
+			<div>
+				<button  onclick="clearvalue()">res</button>
+				<button  onclick="addvalue('.')">.</button>
+				<button  onclick="addvalue('0')">0</button>
+				<button onclick="ans()">=</button>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+
+<script type="text/javascript" src="event.js"></script>
+
+
+
+</body>
+</html>
